@@ -1,0 +1,78 @@
+{
+  "Train": {
+    "10000": {
+      "informativeness": 0.374,
+      "invariance": 0.536,
+      "label_shift": 0.015,
+      "latent_covariate_shift": 0.589,
+      "concept_shift": -0.004,
+      "residual": 0.132,
+      "overall": 0.277
+    },
+    "20000": {
+      "informativeness": 0.377,
+      "invariance": 0.549,
+      "label_shift": -0.004,
+      "latent_covariate_shift": 0.604,
+      "concept_shift": -0.002,
+      "residual": 0.122,
+      "overall": 0.28
+    },
+    "50000": {
+      "informativeness": 0.385,
+      "invariance": 0.537,
+      "label_shift": 0.006,
+      "latent_covariate_shift": 0.572,
+      "concept_shift": 0.002,
+      "residual": 0.121,
+      "overall": 0.285
+    },
+    "100000": {
+      "informativeness": 0.385,
+      "invariance": 0.543,
+      "label_shift": -0.004,
+      "latent_covariate_shift": 0.592,
+      "concept_shift": 0.001,
+      "residual": 0.125,
+      "overall": 0.283
+    }
+  },
+  "Test": {
+    "10000": {
+      "informativeness": 0.437,
+      "invariance": 0.001,
+      "label_shift": 0.012,
+      "latent_covariate_shift": 0.0,
+      "concept_shift": 0.024,
+      "residual": 0.173,
+      "overall": 0.258
+    },
+    "20000": {
+      "informativeness": 0.426,
+      "invariance": 0.001,
+      "label_shift": 0.015,
+      "latent_covariate_shift": 0.0,
+      "concept_shift": 0.024,
+      "residual": 0.16,
+      "overall": 0.261
+    },
+    "50000": {
+      "informativeness": 0.432,
+      "invariance": 0.001,
+      "label_shift": 0.005,
+      "latent_covariate_shift": 0.0,
+      "concept_shift": 0.024,
+      "residual": 0.164,
+      "overall": 0.259
+    },
+    "100000": {
+      "informativeness": 0.426,
+      "invariance": 0.001,
+      "label_shift": 0.006,
+      "latent_covariate_shift": 0.0,
+      "concept_shift": 0.025,
+      "residual": 0.155,
+      "overall": 0.261
+    }
+  }
+}

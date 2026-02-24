@@ -1,0 +1,96 @@
+{'diabetes_readmission_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.01027166618723147, 'invariance': 0.30710987793785244, 'label_shift': 0.003375592508434266, '(latent)_covariate_shift': 0.3175079960508378, 'concept_shift': 0.23493218252398818, 'residual': 0.006837532897659654, 'overall': -0.10714510266171245}
+Test Datashifts with Representations:{'informativeness': 0.0213043057945433, 'invariance': 0.0025294974245522015, 'label_shift': -0.0012487480213724679, '(latent)_covariate_shift': -0.002014138538850448, 'concept_shift': 0.051619415431947875, 'residual': 0.017644843737224376, 'overall': -0.025046437651042575}
+{'ood_test': 0.5149113169047246',"id_test": 0.5803592255656637}
+{'diabetes_readmission_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.08659890800577477, 'invariance': 0.31736932008850066, 'label_shift': 0.003375592508434266, '(latent)_covariate_shift': 0.3821972862916285, 'concept_shift': -0.004671525418974762, 'residual': 0.043922560755882106, 'overall': 0.07911388931516111}
+Test Datashifts with Representations:{'informativeness': 0.0941429893090855, 'invariance': 0.0001442695040896813, 'label_shift': 0.012027185065766846, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.0038231418583559726, 'residual': 0.05012331545285923, 'overall': 0.04804956070788687}
+{'ood_test': 0.6231164652330874,"id_test":0.6575693958479123}
+{'diabetes_readmission_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.08801855759400218, 'invariance': 0.36467866398054527, 'label_shift': 0.003375592508434266, '(latent)_covariate_shift': 0.40791248673303154, 'concept_shift': 0.006537229463137331, 'residual': 0.03443597517300648, 'overall': 0.0736186753198873}
+Test Datashifts with Representations:{'informativeness': 0.09293912585270675, 'invariance': 0.00010820212806625991, 'label_shift': 0.00081501145929108, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.0015869645449781656, 'residual': 0.0529866382532743, 'overall': 0.03951240999255578}
+{'ood_test': 0.6135614503217706, "id_test": 0.6601352927455096}
+{'acsfoodstamps_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.07526983689199386, 'invariance': 1.7162104210405444, 'label_shift': -0.0058060624703405814, '(latent)_covariate_shift': 1.8913961085257127, 'concept_shift': 0.10181716956965937, 'residual': 0.056903806922683965, 'overall': 0.05214725769189401}
+Test Datashifts with Representations:{'informativeness': 0.08488602845962072, 'invariance': 0.00012801585051363078, 'label_shift': 0.00720072170657555, '(latent)_covariate_shift': 0.00013177666782572984, 'concept_shift': 0.2221047410438602, 'residual': 0.06224940689262289, 'overall': -0.08481350769298845}
+{'ood_test': 0.7834199435328778,"id_test": 0.8158798392430178}
+{'acsfoodstamps_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.16076022318986047, 'invariance': 0.5624550374597971, 'label_shift': -0.0058060624703405814, '(latent)_covariate_shift': 0.6235847016367593, 'concept_shift': -0.0024757801340320965, 'residual': 0.08930563737945296, 'overall': 0.10035427673073435}
+Test Datashifts with Representations:{'informativeness': 0.18761391698650157, 'invariance': 0.00018033688011053996, 'label_shift': 0.0086021771280819, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.025535702223734885, 'residual': 0.10014632928186953, 'overall': 0.07891065671675027}
+{'ood_test': 0.8127787552682189,"id_test": 0.83505875769446}
+{'acsfoodstamps_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.2041669056522428, 'invariance': 0.7536262840243707, 'label_shift': -0.0058060624703405814, '(latent)_covariate_shift': 0.8167655365485318, 'concept_shift': -0.004234894953700775, 'residual': 0.10117419481861961, 'overall': 0.1337767533373838}
+Test Datashifts with Representations:{'informativeness': 0.22026250927503332, 'invariance': 0.00018033688011053996, 'label_shift': -0.0036824103026136387, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.016807397226356494, 'residual': 0.10781228823801556, 'overall': 0.10211514883247744}
+{'ood_test': 0.8232333565203159, "id_test": 0.8488197588645267}
+{'brfss_diabetes_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.008299412252825664, 'invariance': 0.001384356668338668, 'label_shift': 0.017554929267790703, '(latent)_covariate_shift': 0.0005204565152614996, 'concept_shift': 0.034630374205677494, 'residual': 0.01598912904116755, 'overall': -0.016659389333823865}
+Test Datashifts with Representations:{'informativeness': 0.02552597021567471, 'invariance': 0.133908989421349, 'label_shift': 0.020406810010394395, '(latent)_covariate_shift': 0.13802366073097672, 'concept_shift': 0.10042398039678671, 'residual': 0.02987715023075616, 'overall': -0.04230242955346375}
+{'ood_test': 0.8256470779401263, "id_test": 0.8733237800739121}
+{'brfss_diabetes_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.09832771194445784, 'invariance': 1.1211992763352213e-15, 'label_shift': 0.004410807874824522, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.0026329184496224687, 'residual': 0.08952265945097382, 'overall': 0.009693997206084506}
+Test Datashifts with Representations:{'informativeness': 0.08905021240764098, 'invariance': 0.1404205294051583, 'label_shift': 0.014106071113800911, '(latent)_covariate_shift': 0.15433897420649392, 'concept_shift': -0.00045121937610152334, 'residual': 0.09072510220712883, 'overall': 0.012562977846131168}
+{'ood_test': 0.8270949253731343, "id_test": 0.87334301797712}
+{'brfss_diabetes_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.13664076030676983, 'invariance': 1.1211992763352213e-15, 'label_shift': 0.004410807874824522, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.000577078016355682, 'residual': 0.1094675696363739, 'overall': 0.02909005559962978}
+Test Datashifts with Representations:{'informativeness': 0.13738376163430902, 'invariance': 0.2209608231300859, 'label_shift': 0.02415514209394956, '(latent)_covariate_shift': 0.2416053394258209, 'concept_shift': -0.0024645360333127235, 'residual': 0.1191356368785337, 'overall': 0.041880221967273965}
+{'ood_test': 0.8326017910447762, "id_test": 0.8766115852551298}
+{'acsincome_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.1319569566511574, 'invariance': 1.1485096609698295, 'label_shift': 0.015213404934141922, '(latent)_covariate_shift': 1.185188741760893, 'concept_shift': 0.23212831127837355, 'residual': 0.06989101085990061, 'overall': -0.028051966985327303}
+Test Datashifts with Representations:{'informativeness': 0.16290273007738085, 'invariance': -0.001002757390764826, 'label_shift': -0.002520531677414732, '(latent)_covariate_shift': -0.00014400393496229175, 'concept_shift': 0.10205868460529022, 'residual': 0.09180691601646343, 'overall': 0.01923558264746622}
+{'ood_test': 0.6713256313314276, "id_test": 0.7070676387201296}
+{'acsincome_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.3601791556517927, 'invariance': 0.5360031924659926, 'label_shift': 0.015213404934141922, '(latent)_covariate_shift': 0.5910165713000435, 'concept_shift': 0.0030819601363128598, 'residual': 0.1237167663651376, 'overall': 0.27003480110259503}
+Test Datashifts with Representations:{'informativeness': 0.40363862604774786, 'invariance': 0.0013054261232274835, 'label_shift': 0.005725376985163286, '(latent)_covariate_shift': 1.992804918220723e-05, 'concept_shift': 0.04294422238379473, 'residual': 0.15990235139826828, 'overall': 0.22448410291314122}
+{'ood_test': 0.8030720185480366, "id_test": 0.820657401782098}
+{'acsincome_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.3735657128893698, 'invariance': 0.5363338522536065, 'label_shift': 0.015213404934141922, '(latent)_covariate_shift': 0.5885207316629791, 'concept_shift': -0.004130589553080494, 'residual': 0.13249295140486597, 'overall': 0.27683819843280133}
+Test Datashifts with Representations:{'informativeness': 0.4369863021297746, 'invariance': 0.0012272599820807339, 'label_shift': 0.01186518282911825, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.023804468174667998, 'residual': 0.17259340073873192, 'overall': 0.25780962872722746}
+{'ood_test': 0.8094479061005652, "id_test": 0.8275997367355205}
+{'acsunemployment_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.0055366292984796485, 'invariance': 0.16542875108067207, 'label_shift': 0.007477877913284072, '(latent)_covariate_shift': 0.1668060135810191, 'concept_shift': 0.14464541618819507, 'residual': 0.008078619380095162, 'overall': -0.07043712796889749}
+Test Datashifts with Representations:{'informativeness': 0.00970515274942456, 'invariance': 0.283464454585928, 'label_shift': 0.0024439469434605755, '(latent)_covariate_shift': 0.28852548252301374, 'concept_shift': 0.13195080811542895, 'residual': 0.013882794994657773, 'overall': -0.06640055886267453}
+{'ood_test': 0.9484936831875608, "id_test": 0.966176060483996}
+{'acsunemployment_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.04132573410675062, 'invariance': 0.35848815996021804, 'label_shift': 0.007477877913284072, '(latent)_covariate_shift': 0.3670965131783779, 'concept_shift': 0.021870232377161247, 'residual': 0.012194042261136016, 'overall': 0.026239691222755927}
+Test Datashifts with Representations:{'informativeness': 0.07998957144226242, 'invariance': 0.26680632880369426, 'label_shift': 0.0005914033580051279, '(latent)_covariate_shift': 0.27085959725914543, 'concept_shift': 0.03156518098637685, 'residual': 0.03432320460360607, 'overall': 0.032206112252196085}
+{'ood_test': 0.9603694128145418, "id_test": 0.9717039010937936}
+{'acsunemployment_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.1265021650582652, 'invariance': 0.2742813833035836, 'label_shift': 0.007477877913284072, '(latent)_covariate_shift': 0.2764439911840395, 'concept_shift': 0.02071460384975766, 'residual': 0.0894551883805399, 'overall': 0.03150991764971647}
+Test Datashifts with Representations:{'informativeness': 0.18296167023753568, 'invariance': 0.19518028829613612, 'label_shift': -0.0023479917748583613, '(latent)_covariate_shift': 0.19692886864409012, 'concept_shift': 0.028928741899369084, 'residual': 0.11195855092704653, 'overall': 0.05623904264735245}
+{'ood_test': 0.9619646600778676, "id_test": 0.9731416354227992}
+{'assistments_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.5755165227666202, 'invariance': 1.5506575059399883, 'label_shift': 0.02660028896165906, '(latent)_covariate_shift': 1.6245906564085661, 'concept_shift': 0.1807492168895673, 'residual': 0.11890404995828349, 'overall': 0.4165045840786715}
+Test Datashifts with Representations:{'informativeness': 0.21890207879314816, 'invariance': 1.996400046143571, 'label_shift': 0.027637209444313242, '(latent)_covariate_shift': 2.0822121404572322, 'concept_shift': 0.014027207050463337, 'residual': 0.2435824377490455, 'overall': 0.025030689397858213}
+{'ood_test': 0.45383001049317945, "id_test": 0.9287756127938297}
+{'assistments_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.4942083774484787, 'invariance': 0.9977906422163473, 'label_shift': 0.02660028896165906, '(latent)_covariate_shift': 1.0321136224858563, 'concept_shift': 0.10106958200368062, 'residual': 0.11740088616110884, 'overall': 0.35673433490111356}
+Test Datashifts with Representations:{'informativeness': 0.3705602656657652, 'invariance': 1.6560303643552308, 'label_shift': 0.046888290484614986, '(latent)_covariate_shift': 1.8112789173065216, 'concept_shift': 0.13146876725760553, 'residual': 0.2811953008059703, 'overall': 0.12469900294894498}
+{'ood_test': 0.5828961175236097, "id_test": 0.9397372508121816}
+{'assistments_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.502502983759421, 'invariance': 0.8797072779282653, 'label_shift': 0.02660028896165906, '(latent)_covariate_shift': 0.9034384984801984, 'concept_shift': 0.015281680087436533, 'residual': 0.11635582055850856, 'overall': 0.4036720779139903}
+Test Datashifts with Representations:{'informativeness': 0.39632522782267626, 'invariance': 1.5975538177433066, 'label_shift': 0.04844512448529828, '(latent)_covariate_shift': 1.7157637240862618, 'concept_shift': 0.12170113268805649, 'residual': 0.30543232963075184, 'overall': 0.11336984726202287}
+{'ood_test': 0.5839454354669464,"id_test": 0.9404725283794633}
+{'acspubcov_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.030592563855401666, 'invariance': -0.002966351662020589, 'label_shift': 0.016856964365221407, '(latent)_covariate_shift': 0.001659698980968879, 'concept_shift': 0.0331585798888101, 'residual': 0.03506053277488082, 'overall': -0.010305751359778764}
+Test Datashifts with Representations:{'informativeness': 0.03975454508501969, 'invariance': 0.00120042795336064, 'label_shift': -0.00801243294111662, '(latent)_covariate_shift': -0.0037838075318464086, 'concept_shift': 0.024657971600883025, 'residual': 0.026188941432108877, 'overall': -0.005261716360692538}
+{'ood_test': 0.36393981002033315, "id_test": 0.7762179950557329}
+{'acspubcov_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.13089588270705274, 'invariance': 0.0002985461182189802, 'label_shift': 0.016856964365221407, '(latent)_covariate_shift': -0.0002553331382951311, 'concept_shift': 0.05850310666340842, 'residual': 0.07525023904585611, 'overall': 0.03454563288384606}
+Test Datashifts with Representations:{'informativeness': 0.24609048778611795, 'invariance': -2.237916454788291e-05, 'label_shift': -0.020551642364364225, '(latent)_covariate_shift': -3.824150543897043e-05, 'concept_shift': 0.03771479635939165, 'residual': 0.1162869898193917, 'overall': 0.10066234743440275}
+{'ood_test': 0.659552720030029, "id_test": 0.8014525282458236}
+{'acspubcov_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.1577817634351016, 'invariance': 1.1211992763352213e-15, 'label_shift': 0.016856964365221407, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.005662578035489279, 'residual': 0.0839348790604369, 'overall': 0.07944407753953023}
+Test Datashifts with Representations:{'informativeness': 0.25892737428937895, 'invariance': 7.213475204540125e-05, 'label_shift': 0.01155707413880769, '(latent)_covariate_shift': 0.0, 'concept_shift': 0.0060593191717341005, 'residual': 0.1258834775001546, 'overall': 0.13575670689673847}
+{'ood_test': 0.6625861834970295, "id_test": 0.80814006893219}
+{'brfss_blood_pressure_causal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.08849042969792587, 'invariance': 0.05759624210280261, 'label_shift': 0.01572578048184541, '(latent)_covariate_shift': 0.04906173301628146, 'concept_shift': 0.06674988399519524, 'residual': 0.03594016093689031, 'overall': 0.022770962461100074}
+Test Datashifts with Representations:{'informativeness': 0.058045218037430964, 'invariance': 0.03667271018884993, 'label_shift': 0.03255208881172612, '(latent)_covariate_shift': 0.032778874924347515, 'concept_shift': 0.08308440997181711, 'residual': 0.021738142932538493, 'overall': 0.009093996892595775}
+{'ood_test': 0.587022918426137, "id_test": 0.6609123170190744}
+{'brfss_blood_pressure_arguablycausal_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.09437626019398179, 'invariance': 0.05376596495397016, 'label_shift': 0.01572578048184541, '(latent)_covariate_shift': 0.062434661777859585, 'concept_shift': 0.10936337606917063, 'residual': 0.04335566682961607, 'overall': 0.008536143982647834}
+Test Datashifts with Representations:{'informativeness': 0.06706639660563418, 'invariance': 0.04855335926950436, 'label_shift': 0.011588465700824608, '(latent)_covariate_shift': 0.0612180852179217, 'concept_shift': 0.09266809045425202, 'residual': 0.02803289732191499, 'overall': 0.004826049881214156}
+{'ood_test': 0.5981042069175623, "id_test": 0.6667529203016412}
+{'brfss_blood_pressure_xgb'}
+Train Datashifts with Representations:{'informativeness': 0.09890565302288344, 'invariance': 0.046562024433282834, 'label_shift': 0.01572578048184541, '(latent)_covariate_shift': 0.04646514856103064, 'concept_shift': 0.01882938517214633, 'residual': 0.03838316120326868, 'overall': 0.058922251538338216}
+Test Datashifts with Representations:{'informativeness': 0.07626051031711888, 'invariance': 0.04593393472651184, 'label_shift': 0.028770712952869416, '(latent)_covariate_shift': 0.05405038766817952, 'concept_shift': 0.021305171458825285, 'residual': 0.029230033922327068, 'overall': 0.05482147361264772}
+{'ood_test': 0.6019065909274963, "id_test": 0.6690817684459559}

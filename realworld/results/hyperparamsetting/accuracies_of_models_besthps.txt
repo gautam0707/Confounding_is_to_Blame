@@ -1,0 +1,1 @@
+MLPModelWithHook{'validation': 0.6516565562295847, 'id_test': 0.6582691859108935, 'ood_test': 0.618486108931094, 'ood_validation': 0.6105225988700564, 'train': 0.6728884741017266}

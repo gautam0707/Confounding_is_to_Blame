@@ -1,0 +1,662 @@
+{
+    "diabetes_readmission": {
+      "causal": {
+        "metrics": {
+          "validation": 0.5762949136724218,
+          "id_test": 0.5838581758805692,
+          "ood_test": 0.5061999686077538,
+          "ood_validation": 0.4929378531073446
+        },
+        "train_shifts": {
+          "informativeness": 0.02134312385762539,
+          "invariance": 0.3507385551022407,
+          "label_shift": 0.003375592508434266,
+          "latent_covariate_shift": 0.3735572846293687,
+          "concept_shift": 0.23972031074062852,
+          "residual": 0.031100222626243262,
+          "overall": -0.11652009312115101
+        },
+        "test_shifts": {
+          "informativeness": 0.017858193987684266,
+          "invariance": 0.0008342452149945886,
+          "label_shift": 0.003414277603891494,
+          "latent_covariate_shift": 0.0008315541286126125,
+          "concept_shift": 0.06011014291591765,
+          "residual": 0.021013148949305113,
+          "overall": -0.031504233160824915
+        }
+      },
+      "arguablycausal": {
+        "metrics": {
+          "validation": 0.5909939337377508,
+          "id_test": 0.5978539771401913,
+          "ood_test": 0.5349631141108147,
+          "ood_validation": 0.5291313559322034
+        },
+        "train_shifts": {
+          "informativeness": 0.09110577418696982,
+          "invariance": 0.3868877762342364,
+          "label_shift": 0.003375592508434266,
+          "latent_covariate_shift": 0.42805342684664616,
+          "concept_shift": 0.010234730698678526,
+          "residual": 0.08777079348523491,
+          "overall": 0.020488236912817648
+        },
+        "test_shifts": {
+          "informativeness": 0.08336788964757917,
+          "invariance": 0.0001442695040896813,
+          "label_shift": 0.003414277603891494,
+          "latent_covariate_shift": 0.0,
+          "concept_shift": 0.0019115709291783868,
+          "residual": 0.07922499258802362,
+          "overall": 0.004822115644867259
+        }
+      },
+      "all": {
+        "metrics": {
+          "validation": 0.6105926271581894,
+          "id_test": 0.609050618147889,
+          "ood_test": 0.5528763145503061,
+          "ood_validation": 0.5483757062146892
+        },
+        "train_shifts": {
+          "informativeness": 0.07591370474845006,
+          "invariance": 0.6924163193568724,
+          "label_shift": 0.003375592508434266,
+          "latent_covariate_shift": 0.7391739365964914,
+          "concept_shift": 0.0029432995949840437,
+          "residual": 0.07598938562010517,
+          "overall": 0.02351927420487948
+        },
+        "test_shifts": {
+          "informativeness": 0.08530585287071288,
+          "invariance": 0.00007213475204540125,
+          "label_shift": 0.003414277603891494,
+          "latent_covariate_shift": 0.0,
+          "concept_shift": 4.805139755722377e-16,
+          "residual": 0.07863973158858281,
+          "overall": 0.008337192708052873
+        }
+      }
+    },
+    "acsfoodstamps": {
+      "causal": {
+        "metrics": {
+          "validation": 0.8183448433744134,
+          "id_test": 0.8156636312763901,
+          "ood_test": 0.7819059699660379,
+          "ood_validation": 0.7902780335113239
+        },
+        "train_shifts": {
+          "informativeness": 0.07612903230936671,
+          "invariance": 2.1300276683229673,
+          "label_shift": -0.0058060624703405814,
+          "latent_covariate_shift": 2.2551408215399418,
+          "concept_shift": 0.1109291730926157,
+          "residual": 0.07742204904863265,
+          "overall": 0.0028959420877431585
+        },
+        "test_shifts": {
+          "informativeness": 0.0791482334937432,
+          "invariance": -0.0001441401086572871,
+          "label_shift": -0.0015958378682764684,
+          "latent_covariate_shift": 7.272725755671429e-05,
+          "concept_shift": 0.13819558371021654,
+          "residual": 0.07580521560013197,
+          "overall": -0.06644425921252826
+        }
+      },
+      "arguablycausal": {
+        "metrics": {
+          "validation": 0.8351584061454717,
+          "id_test": 0.831217886757898,
+          "ood_test": 0.8038585866852163,
+          "ood_validation": 0.8081384643712024
+        },
+        "train_shifts": {
+          "informativeness": 0.16610914820375358,
+          "invariance": 1.032837034381398,
+          "label_shift": -0.0058060624703405814,
+          "latent_covariate_shift": 1.0737180191540359,
+          "concept_shift": -0.007852858081954465,
+          "residual": 0.10288773005606973,
+          "overall": 0.08468530833980974
+        },
+        "test_shifts": {
+          "informativeness": 0.17358127908031432,
+          "invariance": 0.004219882994600474,
+          "label_shift": -0.0015958378682764684,
+          "latent_covariate_shift": 0.0,
+          "concept_shift": 0.003642804978244632,
+          "residual": 0.11126896835435027,
+          "overall": 0.05758304780540324
+        }
+      },
+      "all": {
+        "metrics": {
+          "validation": 0.8453584646495479,
+          "id_test": 0.8432365060792593,
+          "ood_test": 0.8156430295838618,
+          "ood_validation": 0.8147670778862088
+        },
+        "train_shifts": {
+          "informativeness": 0.20557628648578768,
+          "invariance": 0.9846413396056644,
+          "label_shift": -0.0058060624703405814,
+          "latent_covariate_shift": 1.020286667829203,
+          "concept_shift": -0.00533134329753265,
+          "residual": 0.11261607501464756,
+          "overall": 0.11054551599650554
+        },
+        "test_shifts": {
+          "informativeness": 0.21233539923946493,
+          "invariance": 0.003570670226199391,
+          "label_shift": -0.0015958378682764684,
+          "latent_covariate_shift": 0.0,
+          "concept_shift": 0.001875503553155606,
+          "residual": 0.13032090729081133,
+          "overall": 0.07849348612483784
+        }
+      }
+    },
+    "brfss_diabetes": {
+    "causal": {
+      "metrics": {
+        "train": 0.8726770320313149,
+        "validation": 0.8727420826765417,
+        "id_test": 0.8733539482615582,
+        "ood_validation": 0.8263613623244179,
+        "ood_test": 0.8256898387489898
+      },
+      "train_shifts": {
+        "informativeness": 0.02512011531236209,
+        "invariance": 0.0067136935442241395,
+        "label_shift": 0.017554929267790703,
+        "latent_covariate_shift": 0.00573568932638694,
+        "concept_shift": 0.041116542311724756,
+        "residual": 0.0198589348242304,
+        "overall": -0.00700862814275394
+      },
+      "test_shifts": {
+        "informativeness": 0.038174019881482064,
+        "invariance": 0.14216570782451035,
+        "label_shift": 0.016442664018816142,
+        "latent_covariate_shift": 0.15030095725474696,
+        "concept_shift": 0.1194095969567411,
+        "residual": 0.033064997143921575,
+        "overall": -0.042306819016283685
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.8752812802753529,
+        "validation": 0.8745233339386236,
+        "id_test": 0.8727734948908001,
+        "ood_validation": 0.828748280605227,
+        "ood_test": 0.8258053731343283
+      },
+      "train_shifts": {
+        "informativeness": 0.08877230313916598,
+        "invariance": 0.0008656170245350446,
+        "label_shift": 0.004410807874824522,
+        "latent_covariate_shift": 0.0,
+        "concept_shift": 0.0007934822724894832,
+        "residual": 0.08877205139301728,
+        "overall": 0.001376106035048702
+      },
+      "test_shifts": {
+        "informativeness": 0.08529543964610285,
+        "invariance": 0.1658115482671657,
+        "label_shift": 0.007387840843629615,
+        "latent_covariate_shift": 0.17286341645454956,
+        "concept_shift": 0.005454220959007892,
+        "residual": 0.09111661062627814,
+        "overall": -0.0013284269441724977
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.8744104850350124,
+        "validation": 0.8737639698235303,
+        "id_test": 0.87121349687175,
+        "ood_validation": 0.828877235213205,
+        "ood_test": 0.830380895522388
+      },
+      "train_shifts": {
+        "informativeness": 0.13109220433679114,
+        "invariance": 0.0003606737602225215,
+        "label_shift": 0.004410807874824522,
+        "latent_covariate_shift": 0.0,
+        "concept_shift": 3.6067376022940885e-05,
+        "residual": 0.116800670971895,
+        "overall": 0.016298566734185643
+      },
+      "test_shifts": {
+        "informativeness": 0.1376574287146991,
+        "invariance": 0.2317221068380068,
+        "label_shift": 0.007387840843629615,
+        "latent_covariate_shift": 0.24677524767710407,
+        "concept_shift": 0.0017708909367111646,
+        "residual": 0.13269550741322492,
+        "overall": 0.015296966674482049
+      }
+    }
+  },
+  "acsincome": {
+    "causal": {
+      "metrics": {
+        "train": 0.7044947366672388,
+        "validation": 0.7050153466443059,
+        "id_test": 0.7066309740785743,
+        "ood_validation": 0.6667457024303497,
+        "ood_test": 0.6690071267668717
+      },
+      "train_shifts": {
+        "informativeness": 0.12633377716460964,
+        "invariance": 1.3295548290371346,
+        "label_shift": 0.015213404934141922,
+        "latent_covariate_shift": 1.3256671440187142,
+        "concept_shift": 0.2081000517395108,
+        "residual": 0.12486489912969634,
+        "overall": -0.09691828787698129
+      },
+      "test_shifts": {
+        "informativeness": 0.1579812789045621,
+        "invariance": -0.00015923018689335285,
+        "label_shift": 0.003482233702930959,
+        "latent_covariate_shift": -0.00017586876160316614,
+        "concept_shift": 0.1020488393141629,
+        "residual": 0.15665857161774005,
+        "overall": -0.04796891480614887
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.8215482195957198,
+        "validation": 0.820206942378888,
+        "id_test": 0.8197777440259214,
+        "ood_validation": 0.7970361588618851,
+        "ood_test": 0.79498359921487
+      },
+      "train_shifts": {
+        "informativeness": 0.2966450985134879,
+        "invariance": 1.4324576578991466,
+        "label_shift": 0.015213404934141922,
+        "latent_covariate_shift": 1.5019226064291717,
+        "concept_shift": -0.0082087542753961,
+        "residual": 0.1209858016232189,
+        "overall": 0.22210285076005062
+      },
+      "test_shifts": {
+        "informativeness": 0.41247940097683056,
+        "invariance": 0.011546257497527109,
+        "label_shift": 0.003482233702930959,
+        "latent_covariate_shift": 5.773702524787593e-06,
+        "concept_shift": 0.016832644389572056,
+        "residual": 0.20947884275112616,
+        "overall": 0.19055511098488265
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.8248081871779882,
+        "validation": 0.8235167547384742,
+        "id_test": 0.8231571486431754,
+        "ood_validation": 0.811262596324837,
+        "ood_test": 0.814440594907194
+      },
+      "train_shifts": {
+        "informativeness": 0.25105606786879797,
+        "invariance": 0.9871663627667863,
+        "label_shift": 0.015213404934141922,
+        "latent_covariate_shift": 1.026794920136384,
+        "concept_shift": -0.008238033350985895,
+        "residual": 0.08046665057518258,
+        "overall": 0.20212941512097815
+      },
+      "test_shifts": {
+        "informativeness": 0.3634298338006934,
+        "invariance": 0.020378067452557647,
+        "label_shift": 0.003482233702930959,
+        "latent_covariate_shift": 2.633591064131417e-06,
+        "concept_shift": 0.009521787269867552,
+        "residual": 0.137755113459377,
+        "overall": 0.21246722662710135
+      }
+    }
+  },
+    "acsunemployment": 
+    { "causal":{
+      "metrics": {
+        "train": 0.9659411858574622,
+        "validation": 0.9665910612032423,
+        "id_test": 0.966176060483996,
+        "ood_validation": 0.9493949394939494,
+        "ood_test": 0.9484875711290806
+      },
+      "train_shifts": {
+        "informativeness": 0.008889289888310349,
+        "invariance": 0.17330484353519904,
+        "label_shift": 0.007477877913284072,
+        "latent_covariate_shift": 0.17401830377010916,
+        "concept_shift": 0.13289598583046222,
+        "residual": 0.007571576516442423,
+        "overall": -0.06103461046926608
+      },
+      "test_shifts": {
+        "informativeness": 0.012869068203874193,
+        "invariance": 0.33560240192362895,
+        "label_shift": -0.011390759908765893,
+        "latent_covariate_shift": 0.3412145324477917,
+        "concept_shift": 0.12281004397985452,
+        "residual": 0.009936912095900247,
+        "overall": -0.061362180574254854
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.971378418701788,
+        "validation": 0.9722614709600654,
+        "id_test": 0.9717039010937936,
+        "ood_validation": 0.961001100110011,
+        "ood_test": 0.960375524873022
+      },
+      "train_shifts": {
+        "informativeness": 0.038226652133188405,
+        "invariance": 0.3486196292032117,
+        "label_shift": 0.007477877913284072,
+        "latent_covariate_shift": 0.3508445941017723,
+        "concept_shift": 0.0055670627613812525,
+        "residual": 0.014000228566774056,
+        "overall": 0.026294313591646072
+      },
+      "test_shifts": {
+        "informativeness": 0.08438659103965089,
+        "invariance": 0.340895846167844,
+        "label_shift": -0.011390759908765893,
+        "latent_covariate_shift": 0.34199917821767584,
+        "concept_shift": 0.022405816478042743,
+        "residual": 0.04123578096919368,
+        "overall": 0.0268041879019688
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.9723932035751414,
+        "validation": 0.9728811878733794,
+        "id_test": 0.9723545998202832,
+        "ood_validation": 0.9611661166116612,
+        "ood_test": 0.9610539633643215
+      },
+      "train_shifts": {
+        "informativeness": 0.10630972958168233,
+        "invariance": 0.2973841676011296,
+        "label_shift": 0.007477877913284072,
+        "latent_covariate_shift": 0.29147486470790385,
+        "concept_shift": 0.0005772073505795653,
+        "residual": 0.08403898099547724,
+        "overall": 0.022766432420944463
+      },
+      "test_shifts": {
+        "informativeness": 0.17465781455062043,
+        "invariance": 0.38587005088830467,
+        "label_shift": -0.011390759908765893,
+        "latent_covariate_shift": 0.37848464474723886,
+        "concept_shift": 0.01460999630828402,
+        "residual": 0.11921661666125584,
+        "overall": 0.038748116710306715
+      }
+    }
+},
+    "assistments": {
+
+        "causal":{
+      "metrics": {
+        "train": 0.9237861578241016,
+        "validation": 0.9236886924814117,
+        "id_test": 0.9249191569817606,
+        "ood_validation": 0.5518867924528302,
+        "ood_test": 0.45120671563483733
+      },
+      "train_shifts": {
+        "informativeness": 0.3232800851692643,
+        "invariance": 1.820916586557217,
+        "label_shift": 0.02660028896165906,
+        "latent_covariate_shift": 1.8623595840603233,
+        "concept_shift": 0.17200585609038385,
+        "residual": 0.09903799677958479,
+        "overall": 0.17226080357687024
+      },
+      "test_shifts": {
+        "informativeness": 0.21482956376893458,
+        "invariance": 2.007761040649984,
+        "label_shift": 0.02329921323212632,
+        "latent_covariate_shift": 2.065693256800828,
+        "concept_shift": 0.0019402717203180037,
+        "residual": 0.24064181743567517,
+        "overall": 0.013833325164585603
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.9212483224120128,
+        "validation": 0.9211414809090431,
+        "id_test": 0.9221281033590181,
+        "ood_validation": 0.5518867924528302,
+        "ood_test": 0.45120671563483733
+      },
+      "train_shifts": {
+        "informativeness": 0.16985550220841403,
+        "invariance": 1.1736813133351025,
+        "label_shift": 0.02660028896165906,
+        "latent_covariate_shift": 1.1645609463101294,
+        "concept_shift": 0.080577044407797,
+        "residual": 0.09397155408916137,
+        "overall": 0.04433538688369719
+      },
+      "test_shifts": {
+        "informativeness": 0.2542348690346613,
+        "invariance": 1.8706553092488023,
+        "label_shift": 0.02329921323212632,
+        "latent_covariate_shift": 1.890871866798543,
+        "concept_shift": 0.05715790844597368,
+        "residual": 0.28530400719873195,
+        "overall": -0.037890206996124
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.8940158291153308,
+        "validation": 0.894210064299273,
+        "id_test": 0.8951704268361307,
+        "ood_validation": 0.5518867924528302,
+        "ood_test": 0.4491080797481637
+      },
+      "train_shifts": {
+        "informativeness": 0.15995815709897593,
+        "invariance": 1.0261882282039465,
+        "label_shift": 0.02660028896165906,
+        "latent_covariate_shift": 1.0168128823897102,
+        "concept_shift": 0.0030443914271028123,
+        "residual": 0.12472036315619564,
+        "overall": 0.042328069802940294
+      },
+      "test_shifts": {
+        "informativeness": 0.22785257547304774,
+        "invariance": 1.8748222699369799,
+        "label_shift": 0.02329921323212632,
+        "latent_covariate_shift": 1.9033754614681924,
+        "concept_shift": -0.00912996418085792,
+        "residual": 0.28501309993628265,
+        "overall": -0.026669339991136576
+      }
+    }
+},
+  
+  "acspubcov": {
+    "causal": {
+      "metrics": {
+        "train": 0.7760952951251907,
+        "validation": 0.7770881882499536,
+        "id_test": 0.7762120044250792,
+        "ood_validation": 0.3601500946344469,
+        "ood_test": 0.36371728267208886
+      },
+      "train_shifts": {
+        "informativeness": 0.02257457935508308,
+        "invariance": 0.0009955386106988574,
+        "label_shift": 0.016856964365221407,
+        "latent_covariate_shift": -0.0009763673314429546,
+        "concept_shift": 0.015666115738971254,
+        "residual": 0.024070897183493513,
+        "overall": -0.0018868464863562619
+      },
+      "test_shifts": {
+        "informativeness": 0.05010416802529054,
+        "invariance": -0.00008625282307065914,
+        "label_shift": -0.003372463110508083,
+        "latent_covariate_shift": 0.0005694352436983902,
+        "concept_shift": 0.11402648947253523,
+        "residual": 0.051995847192757946,
+        "overall": -0.06026331142560454
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.7990876253572856,
+        "validation": 0.800040336993616,
+        "id_test": 0.7990303165848612,
+        "ood_validation": 0.5837294775298209,
+        "ood_test": 0.5828345827062016
+      },
+      "train_shifts": {
+        "informativeness": 0.09232870701358488,
+        "invariance": 0.036640713847399614,
+        "label_shift": 0.016856964365221407,
+        "latent_covariate_shift": 0.00012142219362211753,
+        "concept_shift": 0.06327338980027927,
+        "residual": 0.06746181338009699,
+        "overall": -0.016600964910929786
+      },
+      "test_shifts": {
+        "informativeness": 0.22120777449821832,
+        "invariance": 0.03790944688607927,
+        "label_shift": -0.003372463110508083,
+        "latent_covariate_shift": 0.000010367668448506073,
+        "concept_shift": 0.0168110039639589,
+        "residual": 0.16059010186723233,
+        "overall": 0.03157639948493712
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.8082181112556908,
+        "validation": 0.8084771586781447,
+        "id_test": 0.8077886186005088,
+        "ood_validation": 0.630045336502487,
+        "ood_test": 0.6302512480483007
+      },
+      "train_shifts": {
+        "informativeness": 0.020511906720672837,
+        "invariance": 0.026293117120201426,
+        "label_shift": 0.016856964365221407,
+        "latent_covariate_shift": 0.0,
+        "concept_shift": 0.0019476383052003667,
+        "residual": 0.01689824110331461,
+        "overall": -0.0020782299127319673
+      },
+      "test_shifts": {
+        "informativeness": 0.03482220839173183,
+        "invariance": 0.02120761710106815,
+        "label_shift": -0.003372463110508083,
+        "latent_covariate_shift": 0.0,
+        "concept_shift": 0.0027411205776893695,
+        "residual": 0.02645271266821907,
+        "overall": -0.005291104671120043
+      }
+    }
+  },
+  "brfss_blood_pressure": {
+    "causal": {
+      "metrics": {
+        "train": 0.5987865681504175,
+        "validation": 0.5977967542789545,
+        "id_test": 0.5980334171225787,
+        "ood_validation": 0.4164859002169197,
+        "ood_test": 0.4157073938244039
+      },
+      "train_shifts": {
+        "informativeness": 0.09965932863113837,
+        "invariance": 0.0692903686143497,
+        "label_shift": 0.01572578048184541,
+        "latent_covariate_shift": 0.0663888171217777,
+        "concept_shift": 0.08139271642511489,
+        "residual": 0.09590285940196513,
+        "overall": -0.03052777448874751
+      },
+      "test_shifts": {
+        "informativeness": 0.07104750201759404,
+        "invariance": 0.0391859029351735,
+        "label_shift": 0.02105310105154427,
+        "latent_covariate_shift": 0.045352403637596087,
+        "concept_shift": 0.07502280913404194,
+        "residual": 0.080297887404611,
+        "overall": -0.03315198907705451
+      }
+    },
+    "arguablycausal": {
+      "metrics": {
+        "train": 0.5987865681504175,
+        "validation": 0.5977967542789545,
+        "id_test": 0.5980334171225787,
+        "ood_validation": 0.4164859002169197,
+        "ood_test": 0.4157073938244039
+      },
+      "train_shifts": {
+        "informativeness": 0.09765699089084444,
+        "invariance": 0.07793818476605491,
+        "label_shift": 0.01572578048184541,
+        "latent_covariate_shift": 0.0810877103026729,
+        "concept_shift": 0.13268393481321883,
+        "residual": 0.09644076972020636,
+        "overall": -0.055688093226739635
+      },
+      "test_shifts": {
+        "informativeness": 0.06936658464312632,
+        "invariance": 0.04740045829685339,
+        "label_shift": 0.02105310105154427,
+        "latent_covariate_shift": 0.055227487913560795,
+        "concept_shift": 0.12864109945946633,
+        "residual": 0.07159031959849071,
+        "overall": -0.05210421935097172
+      }
+    },
+    "all": {
+      "metrics": {
+        "train": 0.5987865681504175,
+        "validation": 0.5977967542789545,
+        "id_test": 0.5980334171225787,
+        "ood_validation": 0.4164859002169197,
+        "ood_test": 0.4157073938244039
+      },
+      "train_shifts": {
+        "informativeness": 0.0986593699492623,
+        "invariance": 0.07989107455116866,
+        "label_shift": 0.01572578048184541,
+        "latent_covariate_shift": 0.0806026583173446,
+        "concept_shift": 0.016078243855003775,
+        "residual": 0.09844055941794555,
+        "overall": 0.00039837072782553107
+      },
+      "test_shifts": {
+        "informativeness": 0.07365563705977853,
+        "invariance": 0.05030459553382311,
+        "label_shift": 0.02105310105154427,
+        "latent_covariate_shift": 0.05353167234564843,
+        "concept_shift": 0.01740055705282833,
+        "residual": 0.07587105035350622,
+        "overall": 0.0012243971115429297
+      }
+    }
+  }
+}
