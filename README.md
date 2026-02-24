@@ -32,4 +32,13 @@ To run the experiments on real-world datasets, setup the runtime environment fol
    results/hyperparamsetting_besthps. To visualize the results, run: python shiftmeasuresplots_realworld_best_hyperparametersetting.py 
 5. To reproduce the results in D22-D24, run: python plotresults_pmaood.py and python plotresults_rho.py
 
-<pre> ## Citation If you use this project, please cite: ```bibtex @article{yourkey2025, title={Your Paper Title}, author={Your Name and Coauthor Name}, journal={Journal Name}, year={2025}, volume={1}, number={1}, pages={1--10} } ``` </pre>
+## Citation If you use this project, please cite: 
+
+```@inproceedings{
+reddy2026when,
+title={When Shift Happens - Confounding Is to Blame},
+author={Abbavaram Gowtham Reddy and Celia Rubio-Madrigal and Rebekka Burkholz and Krikamol Muandet},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=sFjxg8cyJS}
+} ```
