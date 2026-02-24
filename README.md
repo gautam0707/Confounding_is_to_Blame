@@ -34,11 +34,13 @@ To run the experiments on real-world datasets, setup the runtime environment fol
 
 ## Citation If you use this project, please cite: 
 
-```@inproceedings{
+```
+@inproceedings{
 reddy2026when,
 title={When Shift Happens - Confounding Is to Blame},
 author={Abbavaram Gowtham Reddy and Celia Rubio-Madrigal and Rebekka Burkholz and Krikamol Muandet},
 booktitle={The Fourteenth International Conference on Learning Representations},
 year={2026},
 url={https://openreview.net/forum?id=sFjxg8cyJS}
-} ```
+}
+```
